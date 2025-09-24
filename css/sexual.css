@@ -1,7 +1,7 @@
-@import url(..//css/global.css);
+@import url(../global.css);
 
 .container {
-  background-image: url(..//fotos/sexual/img-suite-cinquenta-tons-geral-opium-motel.png);
+  background-image: url(../sexual/img-suite-cinquenta-tons-geral-opium-motel.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

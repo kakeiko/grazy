@@ -1,9 +1,9 @@
-@import url(../global.css);
+@import url(../css/global.css);
 
 .container {
   height: 100vh;
-  background-color: var(--cor-amarelo);
-  background-image: url(../index/girassois.png);
+  background-color: #efb810;
+  background-image: url(../fotos/index/girassois.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -141,7 +141,7 @@
   border-radius: 30px;
   width: 500px;
   padding: 20px;
-  background-color: var(--cor-amarelo);
+  background-color: #efb810;
   display: flex;
   justify-content: space-around;
   align-items: center;

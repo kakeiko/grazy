@@ -1,0 +1,75 @@
+@import url(/css/global.css);
+
+.container {
+  background-image: url(/fotos/estranho/nojo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.part-fatos {
+  margin: 50px;
+  display: block;
+  width: 800px;
+  border-radius: 50px;
+  padding: 30px;
+  background-color: var(--cor-verde);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-fatos {
+  font-size: 32px;
+  color: var(--cor-verde-escuro);
+}
+
+.text-fatos {
+  margin: 10px;
+  font-size: 16px;
+  color: var(--cor-verde-escuro);
+  font-weight: 600;
+}
+
+.part-fotos {
+  display: block;
+  width: 1200px;
+  border-radius: 50px;
+  padding: 30px;
+  background-color: var(--cor-verde);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-fotos {
+  font-size: 24px;
+  color: var(--cor-verde-escuro);
+}
+
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.foto {
+  margin: 30px;
+  width: 350px;
+  border-radius: 15px;
+}
+
+.btn-voltar {
+  margin: 40px;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+}

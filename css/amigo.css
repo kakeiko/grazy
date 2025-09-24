@@ -1,0 +1,47 @@
+@import url(/css/global.css);
+
+.container {
+  height: 100vh;
+  background-image: url(/fotos/amigo/tecidos-tecido-tricoline-estampado-para-decoracao-nuvens-fundo-azul--p-1663424118104.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-amigo {
+  margin: 20px;
+  display: block;
+  width: 800px;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: var(--cor-azul-escuro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feliz,
+.apoio {
+  background-color: var(--cor-azul);
+}
+
+.text-amigo {
+  font-size: 18px;
+  color: var(--cor-azul-m-claro);
+  font-weight: 600;
+}
+.text-feliz,
+.text-apoio {
+  color: black;
+}
+.btn-voltar {
+  text-decoration: none;
+  font-size: 24px;
+  color: var(--cor-azul-m-claro);
+  font-weight: 700;
+}

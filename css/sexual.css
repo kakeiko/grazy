@@ -1,0 +1,87 @@
+@import url(/css/global.css);
+
+.container {
+  background-image: url(/fotos/sexual/img-suite-cinquenta-tons-geral-opium-motel.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.part-fantasia {
+  margin: 50px;
+  display: block;
+  width: 1200px;
+  border-radius: 50px;
+  padding: 30px;
+  background-color: var(--cor-roxo-escuro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-fantasias {
+  margin: 10px;
+  font-size: 24px;
+  color: white;
+}
+
+.fantasias {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fantasia {
+  width: 400px;
+  margin: 20px 40px;
+}
+
+.img-fantasia {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.text-fantasia {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.part-elogio {
+  display: block;
+  width: 800px;
+  border-radius: 50px;
+  padding: 30px;
+  background-color: var(--cor-roxo);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-elogio {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.text-elogio {
+  margin: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+
+.btn-voltar {
+  margin: 40px;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+}

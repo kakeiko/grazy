@@ -1,0 +1,55 @@
+@import url(/css/global.css);
+
+.container {
+  height: 100vh;
+  background-image: url(/fotos/index/girassois.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.part-texto {
+  margin: 50px;
+  width: 500px;
+  padding: 30px;
+  background-color: var(--cor-amarelo-escuro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.title-texto {
+  color: var(--cor-preto-claro);
+  font-size: 32px;
+  margin: 0px 0px 15px 0px;
+}
+
+.text-texto {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ultima-parte {
+  width: 700px;
+  padding: 30px;
+  background-color: var(--cor-amarelo-claro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.btn-voltar {
+  margin: 40px;
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  font-weight: 700;
+}

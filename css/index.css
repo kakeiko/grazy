@@ -1,0 +1,154 @@
+@import url(/css/global.css);
+
+.container {
+  height: 100vh;
+  background-color: var(--cor-amarelo);
+  background-image: url(/fotos/index/girassois.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: var(--cor-preto);
+  font-size: 56px;
+  margin: 60px 0px;
+}
+
+.part-ex {
+  width: 500px;
+  padding: 30px;
+  background-color: var(--cor-amarelo-escuro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.title-ex {
+  color: var(--cor-preto-claro);
+  font-size: 32px;
+  margin: 0px 0px 15px 0px;
+}
+
+.text-ex {
+  font-size: 16px;
+  font-weight: 500;
+}
+.part-amores {
+  border-radius: 30px;
+  margin: 50px 0px 30px 0px;
+  width: 500px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.link {
+  position: relative;
+  text-align: center;
+  width: 150px;
+  margin: 10px 5px;
+  background-color: var(--cor-preto-claro);
+  padding: 7px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.link-romantico,
+.link-amigo,
+.link-sexual,
+.link-estranho,
+.link-final {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--cor-amarelo-escuro);
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+.hearts {
+  position: absolute;
+  display: flex;
+  gap: 6px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hearts span {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #ff4d6d;
+  transform-origin: center;
+}
+
+.link:hover .hearts {
+  opacity: 1;
+}
+
+.link:hover .hearts span {
+  animation: floatUp 2s linear infinite;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) scale(0.8);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-30px) scale(1.4);
+    opacity: 0;
+  }
+}
+.hearts span:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.hearts span:nth-child(3) {
+  animation-delay: 1s;
+}
+.hearts span:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+.link:hover {
+  background: #7878fa;
+}
+.fundo-amigo:hover {
+  background-color: #add8e6;
+}
+.fundo-sexual:hover {
+  background-color: #f08080;
+}
+.fundo-estranho:hover {
+  background-color: #90ee90;
+}
+.part-final {
+  border-radius: 30px;
+  width: 500px;
+  padding: 20px;
+  background-color: var(--cor-amarelo);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-final {
+  font-size: 16px;
+  font-weight: 700;
+}
